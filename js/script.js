@@ -31,10 +31,22 @@ const heading = document.querySelector("h3");
 
 function changeInner() {
     heading.innerHTML = "Updated heading";
+
+    //Question 3
+    heading.style.fontSize = "2em";
+
+    //Question 4
+    heading.classList.add("subheading");
 }
 
 changeInner();
 
-//Question 3
+//Question 5
 
+const paragraph = document.querySelectorAll("p");
 
+for (let i = 0; i < paragraph.length; i++) {
+    paragraph[i].style.color = "red";
+}
+
+//Question 6
