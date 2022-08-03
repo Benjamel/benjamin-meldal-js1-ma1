@@ -50,3 +50,11 @@ for (let i = 0; i < paragraph.length; i++) {
 }
 
 //Question 6
+
+const resultsContainer = document.querySelector(".results");
+
+resultsContainer.innerHTML += "<p>New paragraph</p>";
+resultsContainer.style.color = "yellow";
+
+//Question 7
+
